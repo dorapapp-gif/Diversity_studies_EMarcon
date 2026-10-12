@@ -9,8 +9,6 @@ jobs:
     runs-on: macOS-latest
     permissions:
       contents: write
-      pages: write         # Keeps your GitHub Pages permission fix
-      id-token: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
